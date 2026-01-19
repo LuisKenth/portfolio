@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">KenthPortfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="img-1.jpg" 
+                 alt="Profile Picture" 
+                 class="profile-img">
+            
+            <h1>Hi, I'm <span class="highlight">Kenth Nino Luis</span></h1>
+            <p>A BS Information Technology Student</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I am a passionate developer who loves building clean, user-friendly websites. I specialize in HTML, CSS, and JavaScript, focusing on responsive design and accessibility.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image" style="background-color: #ddd;"></div>
+                <h3>E-Commerce Dashboard</h3>
+                <p>A responsive dashboard built with Flexbox and Grid.</p>
+                <a href="#" class="btn-small">View Code</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #bbb;"></div>
+                <h3>Weather App</h3>
+                <p>Fetches real-time weather data using a public API.</p>
+                <a href="#" class="btn-small">View Code</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #999;"></div>
+                <h3>Task Manager</h3>
+                <p>A CRUD application to manage daily tasks.</p>
+                <a href="#" class="btn-small">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Get In Touch</h2>
+        <p>Interested in working together? Drop me an email!</p>
+        <a href="mailto:email@example.com" class="btn">Email Me</a>
+        <div class="socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kenth Nino Luis. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
